@@ -18,3 +18,16 @@
 .main_container_right {
     flex: 1;
 }
+
+.total_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.product {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}

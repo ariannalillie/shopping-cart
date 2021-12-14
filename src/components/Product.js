@@ -1,9 +1,9 @@
-const Product = ({ name, price }) => {
+const Product = ({ name, price, onClick }) => {
     return (
         <div>
             <h1>{name}</h1>
             <h1>{price}</h1>
-            <button>Add to Cart</button>
+            <button onClick={onClick}>Add to Cart</button>
         </div>
     )
 };

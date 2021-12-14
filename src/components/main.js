@@ -3,7 +3,10 @@ import React from "react";
 const Main = () => {
     return (
         <div>
-            Main
+            <h2>Products</h2>
+            <div className="row">
+
+            </div>
         </div>
     )
 };

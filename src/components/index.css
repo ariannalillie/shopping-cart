@@ -1,6 +1,9 @@
 .cart_item {
+    width: 200px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .cart_item_price {
@@ -12,6 +15,10 @@
 }
 
 .main_container_left {
+    flex: 1;
+}
+
+.main_container_center {
     flex: 1;
 }
 
@@ -30,4 +37,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.quantity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
